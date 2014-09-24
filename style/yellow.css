@@ -1,0 +1,119 @@
+/*
+
+CSS File TOC
+------------------------
+
+1. Common
+2. Header
+3. Theme Specific Content Styles
+
+*/
+
+
+/*========================*/
+/*===  1. Common    ===*/
+/*========================*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#100c00;
+	background-image:url(../images/bg-pattern-yellow.png);
+}
+
+a {
+	color:#000;
+	text-shadow: 1px 1px 1px #fff;
+}
+.twitter_feed a {
+	color:#000;
+	text-shadow: 1px 1px 1px #fff;
+}
+@font-face {
+	font-family:"Humnst777 Blk BT";
+	src: url(Hum777k.ttf);
+}
+
+@font-face {
+	font-family:"Humnst777 BT";
+	src: url(Hum777Bd.ttf);
+}
+
+@font-face {
+	font-family:"Freehand575 BT";
+	src: url(Freeh575.ttf);
+}
+
+@font-face {
+	font-family:"Glowworm";
+	src: url(GLOWWORM.ttf);
+}
+h1 {
+	color:#fdff01;
+	text-shadow: 1px 1px 2px #000;
+	font-family:"Humnst777 Blk BT";
+}
+h2 {
+	color:#e6e6e6;
+	font-family:"Humnst777 BT";
+	text-shadow: 1px 1px 2px #000;
+}
+h3 {
+	color:#000;
+	font-family: Helvetica, sans-serif;
+}
+h4 {
+	color:#CC333F;
+}
+h5 {
+	color:#fdff01;
+	text-shadow: 1px 1px 2px #000;
+	font-family:"Freehand575 BT";
+	font-size:40px;
+}
+h6 {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#534d35;
+	font-weight:normal;
+}
+
+/*========================*/
+/*===  2. Header    ===*/
+/*========================*/
+
+
+.header {
+	border-bottom:1px solid #ffcc00;
+	background-image:none;
+	background-color:#4c4c4c;
+}
+
+/*===============================================*/
+/*===    3. Theme Specific Content Styles     ===*/
+/*===============================================*/
+
+li {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.year {
+	color:#534d35;
+}
+.education_items h6, .references h6 {
+	color:#000;
+}
+.education_items p {
+	color:#534d35
+}
+.tag {
+	color:#000;
+	background:#5fb053;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/tag-yellow.png) no-repeat !important;
+}
+.winner_tag {
+	color:#000;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/winner-yellow.png) no-repeat !important;
+}

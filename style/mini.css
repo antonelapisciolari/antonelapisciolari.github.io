@@ -1,0 +1,168 @@
+/*
+
+CSS File TOC
+------------------------
+
+1. Common
+2. Header
+3. Theme Specific Content Styles
+
+*/
+
+
+/*========================*/
+/*===  1. Common    ===*/
+/*========================*/
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background:url(../images/bg-pattern-mini.jpg);
+	color:#000;
+}
+
+#wrapper {
+	margin:0 auto;
+}
+
+a {
+	color:#EB374B;
+}
+
+a:hover {
+	color:#545454;
+}
+
+@font-face {
+	font-family:"Humnst777 Blk BT";
+	src: url(Hum777k.ttf);
+}
+
+@font-face {
+	font-family:"Humnst777 BT";
+	src: url(Hum777Bd.ttf);
+}
+
+@font-face {
+	font-family:"Freehand575 BT";
+	src: url(Freeh575.ttf);
+}
+
+@font-face {
+	font-family:"Glowworm";
+	src: url(GLOWWORM.ttf);
+}
+
+h1 {
+	color:#405262;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+	color:#737e87;
+	
+	font-size:15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+}
+
+h3 {
+	font-family: Helvetica, sans-serif;
+	color:#2b4051;
+}
+
+h4 {
+	color:#b45a09;
+	font-weight:normal;
+}
+
+h5 {
+	color: #000;
+	text-shadow: 1px 2px 0px #fff;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	background-color:#e6efc2;
+	padding-left:10px;
+}
+
+h6 {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#414143;
+	font-weight:normal;
+	border-bottom:1px solid #e6e5e5;
+	font-size:12px;
+	padding-top:3px;
+	padding-bottom:5px;
+}
+
+
+
+
+/*========================*/
+/*===  2. Header    ===*/
+/*========================*/
+
+.header {
+}
+
+.headerwrapper{ padding:80px 0px 0px 70px; text-align:left; }
+
+#topPanel {
+}
+
+#topPanelHandle {
+	background-color:#EB374B !important;
+}
+
+
+/*===============================================*/
+/*===    3. Theme Specific Content Styles     ===*/
+/*===============================================*/
+
+
+#contents {
+	background-color:#fff;
+	margin-top:-110px;
+	margin-bottom:50px;
+	border-radius:10px;
+	box-shadow: 0px 0px 3px #aca9a8;
+	padding:170px 20px 20px 45px !important;
+	
+}
+
+.education_items h6, .references h6 {
+	color:#000;
+	background:none;
+	padding:0px;
+
+}
+
+.education_items p {
+	color:#414143;
+}
+
+li {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.year {
+	color:#414143;
+	padding-top:35px;
+}
+
+.tag {
+	color:#fff;
+	background:#5fb053;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/tag-blog.png) no-repeat !important;
+}
+
+.winner_tag {
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/winner-blog.png) no-repeat !important;
+}

@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#backgroundPopup{  
+display:none;  
+position:fixed;  
+_position:absolute; /* hack for internet explorer 6*/  
+height:100%;  
+width:100%;  
+top:0;  
+left:0;  
+background:#000000;  
+border:1px solid #545454;  
+z-index:1;  
+}  
+#popupContact{  
+display:none;  
+position:fixed;  
+_position:absolute; /* hack for internet explorer 6*/  
+height:384px;  
+width:408px;  
+background:#FFFFFF;  
+border:6px solid #292929;  
+z-index:2;  
+padding:12px;  
+font-size:13px;  
+}  
+#popupContact h2{  
+font-family:Helvetica, Arial, Tahoma;
+text-align:left;  
+color:#292929;  
+font-size:22px;  
+font-weight:700;  
+margin-bottom:20px;  
+line-height:20px;
+border-bottom:1px solid #e6e6e6; padding:10px;
+text-shadow:none;
+}  
+#popupContactClose{  
+ 
+right:6px;  
+top:4px;  
+position:absolute;  
+color:#6fa5fd;  
+font-weight:700;  
+display:block;  
+}  
+
+#popupContactClose img{margin-right:20px; margin-top:23px;}
+
+a{
+cursor: pointer;
+text-decoration:none;
+}
+

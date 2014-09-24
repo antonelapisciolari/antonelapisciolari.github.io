@@ -1,0 +1,118 @@
+/*
+
+CSS File TOC
+------------------------
+
+1. Common
+2. Header
+3. Theme Specific Content Styles
+
+*/
+
+
+/*========================*/
+/*===  1. Common    ===*/
+/*========================*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#100c00;
+	background-color:#f4f4f4;
+}
+
+a {
+	color:#000;
+	border-bottom:1px dotted #d34699;
+}
+
+a:hover {
+	color:#545454;
+	text-decoration:none;
+	border-bottom:1px dotted #545454;
+}
+
+.gallery a{border:0px !important;}
+
+h1 {
+	color:#d34699;
+}
+h2 {
+	color:#000;
+}
+h3 {
+	color:#000;
+	font-family: Helvetica, sans-serif;
+}
+h4 {
+	color:#CC333F;
+}
+h5 {
+	color:#d34699;
+	font-family: Helvetica, sans-serif;
+}
+h6 {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#000;
+	font-weight:normal;
+}
+
+@font-face {
+	font-family:"Humnst777 Blk BT";
+	src: url(Hum777k.ttf);
+}
+
+@font-face {
+	font-family:"Humnst777 BT";
+	src: url(Hum777Bd.ttf);
+}
+
+@font-face {
+	font-family:"Freehand575 BT";
+	src: url(Freeh575.ttf);
+}
+
+@font-face {
+	font-family:"Glowworm";
+	src: url(GLOWWORM.ttf);
+}
+
+/*========================*/
+/*===  2. Header    ===*/
+/*========================*/
+
+.header {
+	border-bottom:3px solid #000;
+}
+
+.header {
+	background-image:none !important;
+	width:850px;
+}
+
+
+/*===============================================*/
+/*===    3. Theme Specific Content Styles     ===*/
+/*===============================================*/
+
+li {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.year {
+	color:#d34699;
+}
+
+.tag {
+	color:#fff;
+	background:#5fb053;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/tag-purple.png) no-repeat !important;
+}
+
+.winner_tag {
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/winner-purple.png) no-repeat !important;
+}

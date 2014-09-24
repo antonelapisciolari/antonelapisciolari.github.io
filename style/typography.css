@@ -1,0 +1,84 @@
+body{
+		font-family: Arial, Helvetica, sans-serif;
+		color:#646564;
+		}
+		
+.header{background-image:url(../images/header_bg.png);}		
+
+a{
+		color:#646564;
+		}
+
+
+h1{
+	color:#000;
+	}
+	
+	
+h3{
+		
+		color:#000;
+		 font-family: Helvetica, sans-serif;
+		
+		}	
+		
+		
+h4{
+		color:#555555;}
+		
+		
+h5{
+		color:#5fb053;
+		 font-family: Helvetica, sans-serif;}	
+		 
+h6{
+		font-family:Tahoma, Geneva, sans-serif;
+		color:#555555;
+		}
+		
+
+
+li{
+	font-family:Tahoma, Geneva, sans-serif;}	
+		
+	
+p{
+		font-family:Tahoma, Geneva, sans-serif;}		
+	
+.year{
+		color:#a8a6a5;}		
+		
+
+.h1{
+		
+		  color:#5fb053;
+		 font-family: 'HelveticaNeueRegular';
+}
+
+
+.green_btn{
+		
+		color:#FFF;
+		background:#5fb053;
+		font-family:Tahoma, Geneva, sans-serif;}
+		
+		
+.map_btn{
+		
+		color:#FFF;
+		background:#5fb053;
+		font-family:Tahoma, Geneva, sans-serif;}
+		
+		
+.white_color{
+		color:#FFF; font-size:12px;}		
+		
+				
+		
+.winner_btn{
+		
+		
+		color:#FFF;
+		font-family:Tahoma, Geneva, sans-serif;
+		
+		}		
