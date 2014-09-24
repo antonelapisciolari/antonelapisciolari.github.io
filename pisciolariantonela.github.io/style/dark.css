@@ -1,0 +1,150 @@
+/*
+
+CSS File TOC
+------------------------
+
+1. Common
+2. Header
+3. Theme Specific Content Styles
+
+*/
+
+
+/*========================*/
+/*===  1. Common    ===*/
+/*========================*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#100c00;
+	background: #3b3c3e url(../images/bg-pattern.jpg);
+	color:#fff;
+}
+
+a {
+	color:#ffb09e;
+}
+h1 {
+	color:#ffffff;
+	font-family:"Humnst777 Blk BT";
+}
+h2 {
+	color:#c46651;
+	font-family:"Humnst777 BT";
+}
+h3 {
+	color:#ffffff;
+	font-family: Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px black;
+}
+h4 {
+	color:#CC333F;
+	font-weight:normal;
+}
+h5 {
+	color:#f2cf9a;
+	font-weight:normal;
+	text-shadow: 1px -1px 1px black;
+	font-family: Helvetica, sans-serif;
+	font-weight:normal;
+}
+h6 {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#a4a4a4;
+	font-weight:normal;
+}
+
+@font-face {
+	font-family:"Humnst777 Blk BT";
+	src: url(Hum777k.ttf);
+}
+
+@font-face {
+	font-family:"Humnst777 BT";
+	src: url(Hum777Bd.ttf);
+}
+
+@font-face {
+	font-family:"Freehand575 BT";
+	src: url(Freeh575.ttf);
+}
+
+@font-face {
+	font-family:"Glowworm";
+	src: url(GLOWWORM.ttf);
+}
+
+/*========================*/
+/*===  2. Header    ===*/
+/*========================*/
+
+
+
+.header {
+	background-image:url(../images/bg-header.png) !important;
+}
+
+#topPanel {
+	
+}
+
+#topPanelHandle {
+	background-color:#C46651 !important;
+}
+
+
+/*===============================================*/
+/*===    3. Theme Specific Content Styles     ===*/
+/*===============================================*/
+
+.education_items h6, .references h6 {
+	color:#fff;
+}
+li {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.year {
+	color:#a4a4a4;
+}
+
+
+
+.tag {
+	color:#fff;
+	
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/tag-orange.png) no-repeat !important;
+}
+
+.winner_tag {
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/winner-orange.png) no-repeat !important;
+}
+
+.web_icon {
+	background:url(../images/website-white.png) no-repeat;
+	height:21px;
+}
+.msg_icon {
+	background:url(../images/msg-white.png) no-repeat;
+}
+.skype_icon {
+	background:url(../images/skype-white.png) no-repeat;
+	height:21px;
+}
+.twitter_icon {
+	background:url(../images/twitter-white.png) no-repeat;
+}
+.locate_icon {
+	background:url(../images/locate-white.png) no-repeat;
+}
+
+.pdf_icon {
+	background:url(../images/pdf-white.png) no-repeat;
+}
+
+

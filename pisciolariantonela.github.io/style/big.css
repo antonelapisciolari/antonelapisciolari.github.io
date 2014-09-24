@@ -1,0 +1,192 @@
+/*
+
+CSS File TOC
+------------------------
+
+1. Common
+2. Header
+3. Theme Specific Content Styles
+
+*/
+
+
+/*========================*/
+/*===  1. Common    ===*/
+/*========================*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#e8e9ed;
+	color:#353535;
+}
+
+#wrapper {
+	margin:0 auto;
+}
+
+a {
+	color:#42547b;
+}
+
+a:hover {
+color:#000;
+}
+
+@font-face {
+	font-family:"Humnst777 Blk BT";
+	src: url(Hum777k.ttf);
+}
+
+@font-face {
+	font-family:"Humnst777 BT";
+	src: url(Hum777Bd.ttf);
+}
+
+@font-face {
+	font-family:"Freehand575 BT";
+	src: url(Freeh575.ttf);
+}
+
+@font-face {
+	font-family:"Glowworm";
+	src: url(GLOWWORM.ttf);
+}
+
+h1 {
+	color:#1f3862;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:70px;
+	
+}
+
+h2 {
+	color:#DF1E37;
+	font-family: 'Oswald';
+	margin-top:10px;
+}
+
+h3 {
+	color:#e42b48;
+	font-family: Helvetica, sans-serif;
+}
+
+h4 {
+	color:#b45a09;
+	font-weight:normal;
+}
+
+h5 {
+	
+	color:#142950;
+	font-family: 'Oswald';
+	font-weight:normal;
+	font-size:25px;
+}
+
+#main h5 {
+	color:#142950; 
+	background: url(../images/section-bg.png) no-repeat;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	height: 93px;
+	width: 610px;
+	line-height: 93px;
+	font-size:35px;
+	padding-left:10px;
+	margin-bottom:15px;
+}
+
+#main h5:hover {
+background: url(../images/section-bg-hover.png) no-repeat; color:#1f3862; text-shadow: 2px 2px 0 #ffffff;
+}
+
+
+
+h6 {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#545454;
+	font-weight:normal;
+}
+
+
+/*========================*/
+/*===  2. Header    ===*/
+/*========================*/
+
+
+.header {
+	
+}
+
+#topPanel {
+	background-color: #1f3862 !important;
+	border-bottom:1px solid #000;
+}
+#topPanelHandle {
+	background-color:#1f3862 !important;
+}
+
+
+/*===============================================*/
+/*===    3. Theme Specific Content Styles     ===*/
+/*===============================================*/
+
+.education_items h6, .references h6 {
+	color:#000;
+}
+.education_items p {
+	color:#545454;
+}
+li {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.year {
+	color:#545454;
+}
+
+.tag {
+	color:#fff;
+	background:#5fb053;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/tag-big.png) no-repeat !important;
+}
+.winner_tag {
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/winner-big.png) no-repeat !important;
+}
+
+
+.web_icon {
+	background:url(../images/website-big.png) no-repeat;
+	height:21px;
+}
+.msg_icon {
+	background:url(../images/msg-big.png) no-repeat;
+}
+.skype_icon {
+	background:url(../images/skype-big.png) no-repeat;
+	height:21px;
+}
+.linkedin_icon {
+	background:url(../images/linkedin-big.png) no-repeat;
+	height:21px;
+}
+.twitter_icon {
+	background:url(../images/twitter-big.png) no-repeat;
+}
+.locate_icon {
+	background:url(../images/locate-big.png) no-repeat;
+}
+
+.pdf_icon {
+	background:url(../images/pdf-big.png) no-repeat;
+}
+
+.skills li{background-color:#caced7; padding:0px 5px !important; margin:4px 0px !important; color: #333; }
+.skills li:hover{background-color:#1f3862; color:#fff;}

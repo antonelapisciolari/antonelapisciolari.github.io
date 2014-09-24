@@ -1,0 +1,146 @@
+/*
+
+CSS File TOC
+------------------------
+
+1. Common
+2. Header
+3. Theme Specific Content Styles
+
+*/
+
+
+/*========================*/
+/*===  1. Common    ===*/
+/*========================*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background:url(../images/bg-pattern-orange.jpg);
+	color:#000;
+}
+
+#wrapper {
+	margin:0 auto;
+}
+
+a {
+	color:#0c8d8d;
+}
+
+@font-face {
+	font-family:"Humnst777 Blk BT";
+	src: url(Hum777k.ttf);
+}
+
+@font-face {
+	font-family:"Humnst777 BT";
+	src: url(Hum777Bd.ttf);
+}
+
+@font-face {
+	font-family:"Freehand575 BT";
+	src: url(Freeh575.ttf);
+}
+
+@font-face {
+	font-family:"Glowworm";
+	src: url(GLOWWORM.ttf);
+}
+
+h1 {
+	color:#fff;
+	padding:5px;
+	font-family:"Humnst777 Blk BT";
+	text-shadow: 2px 2px 0 #545454, 4px 4px 0 #b12a07;
+}
+
+h2 {
+	color:#fff;
+	padding:5px;
+	font-family:"Humnst777 Blk BT";
+	text-shadow: 2px 2px 0 #545454, 4px 4px 0 #b12a07;
+}
+
+h3 {
+	text-shadow: 1px 1px 0 #fff;
+	color:#673310;
+	font-family: Helvetica, sans-serif;
+}
+
+h4 {
+	color:#b45a09;
+	font-weight:normal;
+}
+
+h5 {
+	color: #B53D25;
+	text-shadow: 1px 1px 0 #fff, 2px 2px 0 #B8B7B8;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+}
+
+h6 {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#414143;
+	font-weight:normal;
+}
+
+/*========================*/
+/*===  2. Header    ===*/
+/*========================*/
+				
+.header {
+	background:url(../images/top-header-bg-orange.png) repeat-x;
+	height:160px;
+}
+
+#topPanel {
+	background-color: #98271b !important;
+}
+
+#topPanelHandle {
+	background-color:#98271b !important;
+}
+
+
+/*===============================================*/
+/*===    3. Theme Specific Content Styles     ===*/
+/*===============================================*/
+
+
+.education_items h6, .references h6 {
+	color:#000;
+}
+
+.education_items p {
+	color:#414143;
+}
+
+li {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.year {
+	color:#414143;
+}
+
+
+.tag {
+	color:#fff;
+	background:#5fb053;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/tag-orange.png) no-repeat !important;
+}
+
+.winner_tag {
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/winner-orange.png) no-repeat !important;
+}
+

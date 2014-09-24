@@ -1,0 +1,121 @@
+/*
+
+CSS File TOC
+------------------------
+
+1. Common
+2. Header
+3. Theme Specific Content Styles
+
+*/
+
+
+/*========================*/
+/*===  1. Common    ===*/
+/*========================*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#100c00;
+	color:#000;
+}
+#wrapper {
+	margin:0 auto;
+}
+
+a {
+	color:#000;
+}
+@font-face {
+	font-family:"Humnst777 Blk BT";
+	src: url(Hum777k.ttf);
+}
+
+@font-face {
+	font-family:"Humnst777 BT";
+	src: url(Hum777Bd.ttf);
+}
+
+@font-face {
+	font-family:"Freehand575 BT";
+	src: url(Freeh575.ttf);
+}
+
+@font-face {
+	font-family:"Glowworm";
+	src: url(GLOWWORM.ttf);
+}
+h1 {
+	color:#ffffff;
+	font-family:"Humnst777 Blk BT";
+}
+h2 {
+	color:#e6e6e6;
+	font-family:"Humnst777 Blk BT";
+}
+h3 {
+	font-family: Helvetica, sans-serif;
+}
+h4 {
+	color:#CC333F;
+	font-weight:normal;
+}
+h5 {
+	color:#ff5d34;
+	font-weight:normal;
+	font-family: Helvetica, sans-serif;
+	background-color:#f6f6f6;
+	border-left:4px solid #f93200;
+	padding-left:10px;
+}
+h5:hover {
+	border-left:4px solid #959595;
+}
+h6 {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#545454;
+	font-weight:normal;
+}
+
+/*========================*/
+/*===  2. Header    ===*/
+/*========================*/
+
+.header {
+	background: #3b3c3e url(../images/bg-pattern.jpg);
+	border-bottom:5px solid #000;
+}
+
+
+/*===============================================*/
+/*===    3. Theme Specific Content Styles     ===*/
+/*===============================================*/
+
+.education_items h6, .references h6 {
+	color:#000;
+}
+.education_items p {
+	color:#545454;
+}
+li {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.year {
+	color:#545454;
+}
+
+.tag {
+	color:#fff;
+	background:#5fb053;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/tag-orange.png) no-repeat !important;
+}
+
+.winner_tag {
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../images/winner-orange.png) no-repeat !important;
+}
