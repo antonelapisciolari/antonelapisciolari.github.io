@@ -375,6 +375,10 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 	background:url(../images/linkedin.png) no-repeat;
 	height:21px;
 }
+.whatsapp_icon {
+	background:url(../images/whatsapp.png) no-repeat;
+	height:21px;
+}
 .twitter_icon {
 	background:url(../images/twitter.png) no-repeat;
 }
