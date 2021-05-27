@@ -1,773 +1,348 @@
-<? include "contact-form/form.contact-form.php"; ?>
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <meta charset="utf-8">
+  <title>Pisciolari Antonela - Resume</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-<title>Pisciolari Antonela Resume</title>
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<meta name="robots" content="index,follow" />
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-<link href="style/default.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="style/google-map.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="style/print.css" rel="stylesheet" type="text/css" media="print" />
-<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Raleway:400,300,700" rel="stylesheet">
 
-<!--[if (gte IE 6)&(lte IE 8)]>
-<script type="text/javascript" src="js/html5.js"></script>
-<script type="text/javascript" src="js/selectivizr-min.js"></script>
-<link rel="stylesheet" href="css/ie_7.css" type="text/css" />
-<![endif]-->
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<script src="js/jQuery.min.js"  type="text/javascript"></script>
-<script src="js/functions.js"  type="text/javascript"></script>
-<script src="contact-form/contact-form.js"  type="text/javascript"></script>
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-<!-- Image Gallery -->
-<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
-
-<!-- Popup Contact Form -->
-<script src="js/popup.js" type="text/javascript"></script>  
-
-
-<!-- Style Swticher -->
-<script type="text/javascript" src="js/styleswitch.js"></script>
-<link rel="stylesheet" type="text/css" href="style/big.css" title="big" media="screen" />
-<link rel="alternate stylesheet" type="text/css" href="style/blue.css" title="blue" media="screen" />
-<link rel="alternate stylesheet" type="text/css" href="style/blue2.css" title="blue2" media="screen" />
-<link rel="alternate stylesheet" type="text/css" href="style/br.css" title="br" media="screen" />
-<link rel="alternate stylesheet" type="text/css" href="style/brown.css" title="brown" media="screen" />
-<link rel="alternate stylesheet" type="text/css" href="style/bs.css" title="bs" media="screen" />
-<link rel="alternate stylesheet" type="text/css" href="style/cgrey.css" title="cgrey" media="screen" />
-<link rel="alternate stylesheet" type="text/css" href="style/dark.css" title="dark" media="screen" />
-<link rel="alternate stylesheet" type="text/css" href="style/orange.css" title="orange" media="screen" />
-<link rel="alternate stylesheet" type="text/css" href="style/purple.css" title="purple" media="screen" />
-<link rel="alternate stylesheet" type="text/css" href="style/white.css" title="white" media="screen" />
-<link rel="alternate stylesheet" type="text/css" href="style/yellow.css" title="yellow" media="screen" />
-<link rel="alternate stylesheet" type="text/css" href="style/mini.css" title="mini" media="screen" />
-
-
-<style type="text/css">
-/* Style Sheet Switcher */
-
-.onpage-style-switcher{width:40px; position:absolute; margin-top:170px; padding-top:10px; padding-bottom:10px; background-color:#fff;}
-.onpage-style-switcher li{ padding:0px; margin:1px 0px 0px 0px;}
-.onpage-style-switcher li a{color:#fff; text-shadow:none;}
-.onpage-style-switcher li a div:hover{padding-right:20px;}
-</style>
-
-<link href="style/popup.css" rel="stylesheet" type="text/css" media="screen" />
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body data-spy="scroll" data-offset="64" data-target="#section-topbar">
 
- 		
+  <div id="section-topbar">
+    <div id="topbar-inner">
+      <div class="container">
+        <div class="row">
+          <div class="dropdown">
+            <ul id="nav" class="nav">
+              <li class="menu-item"><a class="smothscroll" href="#about" title="About"><i class="fa fa-user"></i></a></li>
+              <li class="menu-item"><a class="smothscroll" href="#resume" title="Resume"><i class="fa fa-file-text-o"></i></a></li>
+              <li class="menu-item"><a class="smothscroll" href="#contact" title="Contact"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+            <!--/ uL#nav -->
+          </div>
+          <!-- /.dropdown -->
 
-<ul class="onpage-style-switcher">
-	<li><a href="style/style=white" rel="white" class="styleswitch"><div style="background-color:#5FB053; height:25px; width:30px;"></div></a></li>
-	<li><a href="style/style=big" rel="big" class="styleswitch"><div style="background-color:#1f3862; height:25px; width:30px;"></div></a></li>
-	
+          <div class="clear"></div>
+        </div>
+        <!--/.row -->
+      </div>
+      <!--/.container -->
 
-    <li><a href="style/style=brown" rel="brown" class="styleswitch"><div style="background-color:#2f2913; height:25px; width:30px;"></div></a></li>
-   
-    <li><a href="style/style=cgrey" rel="cgrey" class="styleswitch"><div style="background-color:#3c3d3f; height:25px; width:30px;"></div></a></li>
-</ul>
+      <div class="clear"></div>
+    </div>
+    <!--/ #topbar-inner -->
+  </div>
+  <!--/ #section-topbar -->
 
-
-<div id="mydiv" class="success" style="display:none;">
- 
-Thank you for contacting me
-
-</div>
-
-<div style="clear:both;"></div>
-
-<!--map start-->
-<div id="map-wrapper">
-           
-<div id="topLine"></div>
-
-        <div id="topPanel">
-		<div id="googleMap" class="googleMap" data-zoom="8" data-latitude="-31.420409" data-longitude="-64.188979" data-title="Cordoba, Argentina">
-		</div>
-        
-        <div class="gwrap">
-            
-            <div id="topPanelHandle"><span>Map</span></div>
-            
-            </div>
-		
-            
-	</div>
-</div>
-<!--map ends-->
-
-<!--header start-->
-<header class="header">
-			
-			
-            
-                 
-           
-            
-			<div class="headerwrapper">
-           
-          
-            
-             <h1>Antonela Pisciolari</h1>
-             
-             <div class="clearfix"></div>
-             
-             <h2>Software Quality Assurance Engineer</h2>
-            </div>
-
-	
-</header>
-<!--header end-->
-				
-
-			<!--wrapper start-->
-			<div id="wrapper">
-            
+  <div id="headerwrap">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-12">
+          <h1>Pisciolari Antonela</h1>
+          <h3>SR QA Engineer | antopiscio@gmail.com</h3>
+        </div>
+        <!--/.col-lg-12 -->
+      </div>
       
-            
-            
-            <!--contents start-->
-            <section id="contents">
-            
-           
-           
-             <!--main start-->
-             <div id="main">
-             
-             <!--section start-->
-             <div class="section">
-             
-              <h5>Work Experience</h5>
-
-                              <!--work_item start-->
-              <div class="work_item">
-              
-               <div class="year">2016 - Today</div>
-            
-             <h3>Senior QA Analyst</h3>
-             
-              <h6>GlobalLogic - Remote</h6>
-              <br />
-              
-               <p>
-			   
-● Define a test strategy for Web application with micro-services architecture
-<br>
-● Implement automatic test solution using Selenium and Java for a cloud-based console (UI, API, DBs tests). Add automated test to an already created test solution in Groovy usign selenium. 
-<br>
-● Design, develop, plan and execute test case scenarios, as well as regression testing and problem reporting. Trace user stories.
-<br>
-● Manual testing, exploratory tests, bug tracking, root-cause analysis. 
-<br>
-● Scrum Master/Project Lider responsabilities, dailies, plannings, groomings, sprint tracking, risks, impediments, etc. 
-</p>
-              
-            
-            
-            
-              
-              </div>
-              <!--portfolio_item end-->         
-                 <!--work_item start-->
-              <div class="work_item">
-              
-               <div class="year">2015 - 2016</div>
-            
-             <h3>QA Analyst II</h3>
-             
-              <h6>Experian SA Chile</h6>
-              <br />
-              
-               <p>
-			   
-● Create a test solution for the automation of internal products
-<br>
-● Define a new test Strategy. 
-<br>
-● Execution of test on z/OS systems though TSO/ISPF interface and IBM Rational Developer Tools.
-<br>
-● Design, develop, plan and execute test case scenarios, as well as regression testing and problem 
-
-reporting. 
-<br>
-● Trace of user stories. 
-<br>
-● Maintain and revise Audit Plan and Schedule in line with project epics/stories. 
-<br>
-● Provide support and assistance to the Project on quality, certification and verification/ validation 
-issues. 
-<br>
-● Experience working in a KANBAN environment following agile practices.</p>
-              
-            
-            
-            
-              
-              </div>
-              <!--portfolio_item end-->         
-              
-              <!--work_item start-->
-              <div class="work_item">
-              
-               <div class="year">2011 - 2014</div>
-            
-             <h3>Software Engineer</h3>
-             
-              <h6>Intel Argentina</h6>
-              <br />
-              
-               <p>● Develop a multi-layer testing solution in C#, instrumenting Selenium Web Driver, using selenium
-
-Grid as part of the infrastructure to distribute tests on multiple platforms for Web Applications 
-
-and Web Services.
-<br>
-● Leader of an outsourced QA team.
-<br>
-● Create a test solution for testing Restful APIs using SOAP UI.
-<br>
-● Design, develop, plan and execute test case scenarios, as well as regression testing and problem 
-
-reporting. 
-<br>
-● Design and development of Performance test. 
-<br>
-● Trace of user stories. 
-<br>
-● Help to setup the Continuous Delivery tool chain for several Application and Services, applying the 
-
-right tool for each one, like static analysis tools, coverage, build scripts, deployment, unit and 
-
-functional testing.
-<br>
-● Maintain and revise Audit Plan and Schedule in line with project epics/stories. 
-<br>
-● Provide support and assistance to the Project on quality, certification and verification/ validation 
-
-issues. 
-<br>
-● Experience working in a scrum environment following agile practices.</p>
-              
-            
-            
-            
-              
-              </div>
-              <!--portfolio_item end-->
-              
-              
-                <!--work_item start-->
-              <div class="work_item">
-              
-               <div class="year">2013 - 2014</div>
-                <h3>Web Automation Consultant</h3>
-            
-          		<h6>System Department, UTN FRC</h6>
-            
-            <br />
-            
-<p>● Design the architecture of the test solution using Selenium webdriver in Java. <br>● Assist in the coding
-
-and maintenance of automated testing execution frameworks.<br>● Write automated test scripts using 
-
-functional automation tools using agreed standards and tools<br>● Perform maintenance on own and 
-
-others automated test scripts.<br>● Work closely with other team members to gather automated testing 
-
-requirements. Inform other teams of faults found when required.<br>● Represent TTP at meetings with 
-
-client teams to discuss the automated testing needs of the project</p>
-              
-            
-            
-            
-           
-            
-            
-         
-            
-         
-            
-            
-          
-            
-            
-           
-            
-           
-            
-      
-            
-              
-              </div>
-              <!--portfolio_item end-->
-              
-              
-              
-               <!--work_item start-->
-              <div class="work_item">
-              
-             <div class="year">2010 - 2011</div>
-            <h3>Web Developer</h3>
-            
-            
-            
-           
-            
-            
-            <h6>Coined</h6>
-            
-            
-            <br />
-            <p>● Part of a cross geo team.<br>
-
-● Responsible for the update and maintenance of the web pages of the company. Using Kanban 
-
-method, developing the new features, doing bug fixing using ASP, HTML, C# and SQL server.</p>
-            
-            
-            
-           
-            
-            
-         
-            
-         
-            
-            
-          
-            
-            
-           
-            
-           
-            
-      
-            
-              
-              </div>
-              <!--portfolio_item end-->
-              
-              
-
-             
-              
-              
-              
-           
-             
-             </div>
-              <!--section end-->
-             
-             
-             <div class="clearfix"></div>
-             <br />
-              <!--section start-->
-             <div class="section">
-             
-               <h5>Courses</h5>
-             
-              <!--portfolio_item start-->
-             <div class="education_items">
-              <div class="tag">Most Recent</div>
-            <p>Scrum: Framework for Agile Project Management</p>
-           <p>Datastax – Cassandra</p>
-             <p>Python Programming Language (Level I)</p>
-             <p>DEFENSIC Codenomicon</p>
-             </div>
-              <!--portfolio_item end-->
-             
-             
-             
-        
-      
-             
-             </div>
-             <!--section end-->
-             
-             
-             
-             
-             
-             </div>
-              <!--main end-->
-            
-           
-          	 <!--sidebar start-->
-             <aside id="sidebar">
-             
-             <!--section start-->
-             <div class="section">
-             
-              <h5>Contact Information</h5>
-              
-              
-              <!--Contact_Info_items start-->
-              <div class="contact_Info_items">
-              
-              <ul>
-              
-               <li class="msg_icon"><a href="#">antopiscio@gmail.com</a></li>
-                
-                 <li class="whatsapp_icon"> <a href="https://web.whatsapp.com/send?phone=5493517658617">Whatsapp Chat</a></li>
-				 <li class="linkedin_icon"><a href="http://ar.linkedin.com/in/pisciolariantonela">antopiscio</a></li>
-                 <li class="pdf_icon"><a href="./downloads/resume_AP_number.pdf">download resume</a></li>
-                  
-               </ul>
-              
-              
-              
-              
-              
-              </div>
-               <!--Contact_Info_items end-->
-             
-             </div>
-              <!--section end-->
-              
-             
-              <!--section start-->
-              <div class="section">
-              
-              
-                <h5>Education</h5>
-              
-              <!--education_items start-->
-              <div class="education_items">
-              
-               <h6 class="bold">Diplomacy in Quality Assurance</h6>
-              
-              
-              <p>UTN FRC, Cordoba, AR</p>
-              
-              
-           <br />
-              
-               <h6 class="bold">Bachelor's Degree - Systems Engineer.</h6>
-              
-              
-              <p>UTN FRC, Cordoba, AR</p>
-              
-              
-              </div>
-               <!--education_items end-->
-              
-              
-              </div>
-              <!--section end-->
-             
-             
-             <div class="clearfix"></div>
-             
-             
-              <!--section start-->
-             <div class="section">
-             
-              <h5>Skills & Tools</h5>
-              
-              
-              <!--skills start-->
-               <div class="skills">
-               
-               
-               <ul>
-               <li>Selenium WebDriver</li>
-               
-                <li>.NET</li>
-                <li>AWS</li>
-                
-                 <li>MySQL</li>
-                 <li>MONGO DB</li>
-                 
-                  <li>Groovy</li>
-                  
-                   <li>HTML</li>
-                   <li>CSS</li>
-                   <li>Node Js</li>
-                    <li>Java</li>
-					<li>GIT</li>
-
-                  </ul>
-                  
-                <br />
-               
-                     
-                     <div class="clearfix"></div> <br />
-                     
-                     <ul>    
-                    
-                        
-                        <li>Agile Methodology</li>
-                        
-                           <li>Scrum</li>
-							
-							<li>Kanban</li>
-               
-               </ul>
-               
-               
-               
-               </div>
-               <!--skills end-->
-               
-               
-                <!--skills start-->
-              <div class="skills">
-                                 <ul> 
-                        <li>Jira</li>
-                   
-                        <li>Jenkins</li>
-                        <li>Stash</li>
-                        <li>Bamboo</li>
-                        <li>Quality Center</li>
-                         <li>SOAP UI</li>
-                        <li>JMeter</li>
-                        <li>Sql</li>
-                        
-                       
-                        
-						 <li>Mercurial</li>
-						 
-						 <li>SVN</li>
-						 
-						 
-						 
-						 <li>IBM Mainframe</li>
-                     </ul>
-               
-              
-               
-               
-               </div>
-               <!--skills end-->
-             
-             
-             </div>
-              <!--section end-->
-              
-              
-              
-              <div class="clearfix"></div>
-              
-              
-             <!--section start-->
-             <div class="section">
-             
-              <h5>Languages</h5>
-              
-              
-               <!--languages start-->
-              <div class="languages">
-              
-              
-              <!--skills start-->
-               <div class="skills">
-               
-               
-               <ul>
-               <li>Spanish (native)</li>
-               
-                <li>English (Intermediate)</li>
-                
-                 </ul>
-               
-               
-               
-               </div>
-               <!--skills end-->
-      
-              
-              
-              </div>
-              <!--languages end-->
-              
-              
-               <div class="clearfix"></div>
-              
-              
-          
-             <!--section end-->
-             
-             
-             
-             
-             <div class="clearfix"></div>
-             
-             
-             
-           
-            
-              
-             
-             
-             </div>
-             <!--section end-->
-             
-             
-             
-             
-
-              
-             
-             
-             </div>
-             <!--section end-->
-             
-             
-             
-             
-             <!-- section start -->
-             
-             
-             <div class="section" >
-             
-
-             <!-- section ends -->
-             
-             
-             
-             </aside>
-             <!--sidebar end-->
-           
-           
-           
-           
-         
-       
-           <div style="clear:both;"></div>
-             
-			</section>
-            <!--contents end-->
-            
-            </div>
-			<!--wrapper end-->
-          
-
-<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
- <script type="text/javascript" charset="utf-8">
- 
-$(document).ready(function(){
- $("a[rel=gallery]").fancybox({
-				'transitionIn'		: 'none',
-				'transitionOut'		: 'none',
-				'titlePosition' 	: 'over',
-				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
-					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
-				}
-			});
- 
-
-			
-			
-			$('#bandar').css('display','none');
-			var sentParts = window.location.href.toString().split('?');
-			if(sentParts.length > 1)
-			if(sentParts[1] ='sent'){
-			$('#mydiv').css('display','');
-			        setTimeout(function() {
-					    $('#mydiv').fadeOut('fast');
-					}, 3000);
-			}
-			
-			
-			
-			});
-			</script>
-<script type="text/javascript" src="js/twitter.js"></script>      
-
-<script type="text/javascript">
-
-/*
- * ---------------------------------------------------------------- 
- *  Twitter
- * ----------------------------------------------------------------  
- */
- 	
-	getTwitters('tweet', { 
-	  id: 'egrappler',  /* Your Twitter ID */
-	  count: 4, /* Number of tweets that will be shown */
-	  enableLinks: true, 
-	  ignoreReplies: true, 
-	  clearContents: true,
-	  template: '<div class="twitter-content">%text%</div><a  href="http://twitter.com/%user_screen_name%/statuses/%id_str%/"></a>'
-	});
-</script>
+      <!--/.row -->
+    </div>
+    <!--/.container -->
+  </div>
+  <!--/.#headerwrap -->
 
 
-<!-- Contact Form Start -->
-     
-<!--<div id="popupContact">  
-        <a id="popupContactClose"><img src="images/x.gif" alt="Close" /></a>  
-        <h2>Lets Meet!</h2>  
-        <p id="contactArea">  
-            <div id="contact-form">
+  <section id="about" name="about">
+    <div id="intro">
+      <div class="container">
+        <div class="row">
 
-            <form name="contact" action="<?=$_SERVER['PHP_SELF']?>" method="post" onsubmit="return validateForm();">
-                <table cellpadding="8" cellspacing="10">
-                    <tr>
-                        <td><label>Your Name <span class="req">*</span></label></td>
-                        
-                    </tr>
-                    <tr>
-                        <td><input type="text"  id="sender_name"  name="sender_name" /></td>
-                    </tr>
-                    
-                    <tr>
-                    	<td><label>Your E-Mail <span class="req"></span></label></td>
-                    </tr>
-                    
-                    <tr>
-                    	<td ><input type="text" id="sender_email" name="sender_email" /></td>
-                    </tr>
-                    
-                    <tr>
-                    	<td><label>Message </label></td>
-                    </tr>
-                    
-                    <tr>
-                    	<td ><textarea id="sender_message" name="sender_message" cols="" rows="" style="width:380px; height:80px;"></textarea></td>
-                    </tr>
-                    
-                    <tr>
-                    	<td>
-                        	<input type="submit" name="submitForm" value="Submit" class="button m grey-gloss" />
-                        	<span id="bandar"><img src="images/loader.gif" alt="Progress indicator..." /></span>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td colspan="4">
-                        <p id="form_errors"></p>
-                        <p id="form_thanks"></p>
-                        </td>
-                    </tr>
-                </table>
-            </form>
-        
-                </div>
-            
-            
-        </p>  
-    </div>  
-<div id="backgroundPopup"></div>-->
-  
-<!-- Contact Form End -->
-    
-      
+          <div class="col-lg-2 col-lg-offset-1">
+            <h5>ABOUT</h5>
+          </div>
+          <div class="col-lg-6">
+            <p>Software Engineering with 10 years’ experience in Quality Assurance task and test automation, including the design, architect and implementation of testing strategies, as well as regression testing and problem reporting. Maintain and revise Audit Plan and Schedule in line with project epics/stories and optimize the procedures to ensure bug-free production releases.
+              Scrum master and release manager enthusiast</p>
+          </div>
+          <div class="col-lg-3">
+            <p><a href="https://www.linkedin.com/in/pisciolariantonela/"><m>Linkedin</m></a>
+            </p>
+          </div>
+
+        </div>
+        <!--/.row -->
+      </div>
+      <!--/.container -->
+    </div>
+    <!--/ #intro -->
+  </section>
+
+
+  <!--WORK DESCRIPTION -->
+  <div class="container desc">
+    <div class="row">
+
+      <div class="col-lg-2 col-lg-offset-1">
+        <h5>WORK</h5>
+      </div>
+      <div class="col-lg-6">
+        <p>
+          <t>Sr QA Engineer</t><br/> American Dream <br/>
+        </p>
+        <p>
+          <more>Helping increase revenue for the entertainment and retail complex, ensuring the best quality possible and friendly design for the users.</more><br/>
+          <more>Executing the following tasks: <br/>
+            QA architecture design, automating tests using JEST, Cypress, Webdriver.io, among others; Executing manual and automated tests. Configure the tests line in pipeline in GitHub actions and AWS. Release Manager  </more>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>OCTOBER 2020 - CURRENT</sm>
+        </p>
+      </div>
+
+      <div class="col-lg-6 col-lg-offset-3">
+        <p>
+          <t>Sr QA Engineer</t><br/> WhitePrompt <br/>
+        </p>
+        <p>
+          <more>Helping with the release on time and with quality of mobile apps and websites for different clients. Working in multiple projects at a time with different scopes, tools and teams.</more>
+          <more>Using tools & techs like: <br/>
+            Appium, AWS Device Farm, Testflight, GooglePlay, Cypress, GraphQL, Mocha, Chai </more>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>SEPT 2019 - OCTOBER 2020</sm>
+        </p>
+      </div>
+
+      <div class="col-lg-6 col-lg-offset-3">
+        <p>
+          <t>Sr QA Engineer</t><br/> GlobalLogic <br/>
+        </p>
+        <p>
+          <more>Working as a Sr QA Analyst, creating test cases design, executing exploratory and manual tests. Regression tests. Automation using Groovy and Selenium. Testing microservices using Rest Apis. Also bug tracking, reports and support (this involving bug analysis, root cause analysis). Using Scrum, and helping with scrum master tasks and story analysis. Also AWS configurations.</more>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>SEPT 2016 - SEPT 2019</sm>
+        </p>
+      </div>
+
+      <div class="col-lg-6 col-lg-offset-3">
+        <p>
+          <t>QA Engineer</t><br/> Intel <br/>
+        </p>
+        <p>
+          <more>Design, develop, plan and execute test case scenarios, as well as regression testing and problem reporting. Trace of requirements. Maintain and revise Audit Plan and Schedule in line with project requirements. Provide support and assistance to the Project on quality, certification and verification / validation issues.
+            Scrum master backup</more>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>JAN 2011 - OCT 2014</sm><br/>
+          <sm>JAN 2016 - AUG 2016</sm>
+        </p>
+      </div>
+    </div>
+    <!--/.row -->
+    <br>
+    <hr>
+  </div>
+  <!--/.container -->
+
+  <section id="resume" name="resume">
+    <!--EDUCATION DESCRIPTION -->
+    <div class="container desc">
+      <div class="row">
+
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>EDUCATION</h5>
+        </div>
+        <div class="col-lg-6">
+          <p>
+            <t>Post Graduate in Quality and Software Engineer</t><br/>Universidad Tecnológica Nacional<br/>
+            <i>1 year course</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm>DEC 2012</sm><br/>
+          </p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>
+            <t>System's Information Engineering</t><br/> Universidad Tecnológica Nacional <br/>
+            <i>5 Years Career</i>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <sm> MARCH 2006 - DEC 2011</sm>
+          </p>
+        </div>
+
+      </div>
+      <!--/.row -->
+      <br>
+      <hr>
+    </div>
+    <!--/.container -->
+  </section>
+
+  <!--AWARDS DESCRIPTION -->
+  <div class="container desc">
+    <div class="row">
+      <div class="col-lg-2 col-lg-offset-1">
+        <h5>OTHERS</h5>
+      </div>
+      <div class="col-lg-6">
+        <p>
+          <t>Research Project </t><br/> Universidad Tecnológica Nacional <br/>
+        </p>
+        <p>
+          <more>Definition of a protocol of procedures regarding statistical metrics associated with the process of development and continuous improvement of software</more>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <p>
+          <sm>2012</sm>
+        </p>
+      </div>
+
+
+    </div>
+    <!--/.row -->
+    <br>
+  </div>
+  <!--/.container -->
+
+
+  <!--SKILLS DESCRIPTION -->
+  <div id="skillswrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+          <h5>SKILLS</h5>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="selenium" height="130" width="130"></canvas>
+          <p>Selenium</p>
+          <br>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="cypress" height="130" width="130"></canvas>
+          <p>Cypress</p>
+          <br>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="jest" height="130" width="130"></canvas>
+          <p>JEST</p>
+          <br>
+        </div>
+
+        <div class="col-lg-3 col-lg-offset-3 centered">
+          <canvas id="restassured" height="130" width="130"></canvas>
+          <p>RestAssured</p>
+          <br>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="postman" height="130" width="130"></canvas>
+          <p>PostMan</p>
+          <br>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="mocha" height="130" width="130"></canvas>
+          <p>Mocha/Chai</p>
+          <br>
+        </div>
+
+      </div>
+      <!--/.row -->
+      <br>
+    </div>
+    <!--/.container -->
+  </div>
+  <!--/ #skillswrap -->
+
+
+  <section id="contact" name="contact">
+    <!--FOOTER DESCRIPTION -->
+    <div id="footwrap">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-2">
+            <h5>CONTACT</h5>
+          </div>
+          <div class="col-lg-2">
+            <p>
+              <t>Email</t><br/> antopiscio@gmail.com
+            </p>
+          </div>
+            <div class="col-lg-2">
+            <p>
+              <t>Social Links</t><br/>
+              <a href="https://twitter.com/antopiscio"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/pisciolariantonela/"><i class="fa fa-linkedin"></i></a>
+            </p>
+          </div>
+
+        </div>
+        <!--/.row -->
+      </div>
+      <!--/.container -->
+    </div>
+    <!--/ #footer -->
+  </section>
+
+  <div id="copyrights">
+    <div class="container">
+      <p>
+        &copy; Copyrights <strong>Kelvin</strong>. All Rights Reserved
+      </p>
+      <div class="credits">
+        <!--
+          You are NOT allowed to delete the credit link to TemplateMag with free version.
+          You can delete the credit link only if you bought the pro version.
+          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/kelvin-bootstrap-resume-template/
+          Licensing information: https://templatemag.com/license/
+        -->
+        Created with Kelvin template by <a href="https://templatemag.com/">TemplateMag</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/chart/chart.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
 </html>
